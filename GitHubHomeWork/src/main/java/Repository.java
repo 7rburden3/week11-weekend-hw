@@ -33,9 +33,28 @@ public class Repository {
     }
 
     //add commit to arraylist
-    public void addCommit(){
-
+    public void addCommit(Commit commit){
+        this.commits.add(commit);
     }
+
+    public Commit findCommitByUniqueId(String uniqueIdToFind) {
+        //public Commit as needs to look in Commit class, pass in string of id to find
+        for(Commit commit : this.commits){
+            if(commit.getUniqueId() == uniqueIdToFind){
+                return commit;
+            }
+        }
+        return null;
+    }
+
+//    public Commit getCommitByUniqueId(String uniqueIDToFind){
+//        for (Commit commit : this.commits){
+//            if (commit.getUniqueId() == uniqueIDToFind){
+//                return commit;
+//            }
+//        }
+//        return null;
+//    }
 
 
 //We should be able to get a commit by its uniqueId

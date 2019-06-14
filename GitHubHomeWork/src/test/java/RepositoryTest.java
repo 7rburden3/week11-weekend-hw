@@ -8,10 +8,13 @@ public class RepositoryTest {
     // create instance variable
 
     Repository testRepository;
+    Commit commit1, commit2;
 
     @Before
     public void before(){
         testRepository = new Repository("test", "repository of baz", RepositoryType.PUBLIC);
+        commit1 = new Commit("initial commit", "a1b2c3", CommitType.OTHER);
+        commit2 = new Commit("add test", "b2c3d4", CommitType.BUGFIX);
     }
 
     @Test
@@ -27,6 +30,26 @@ public class RepositoryTest {
     @Test
     public void repositoryHasType(){
         assertEquals(RepositoryType.PUBLIC, testRepository.getRepositoryType());
+    }
+
+    @Test
+    public void repositoryStartsEmpty(){
+        assertEquals(0, testRepository.getNumberOfCommits());
+    }
+
+    @Test
+    public void canAddCommitToRepository(){
+        //create new commit in @Before
+        testRepository.addCommit(commit1);
+        assertEquals(1, testRepository.getNumberOfCommits());
+    }
+
+    @Test
+    public void canFindCommitByUniqueId(){
+        testRepository.addCommit(commit1);
+        testRepository.addCommit(commit2);
+        Commit findUniqueCommit = testRepository.findCommitByUniqueId("b2c3d4");
+        assertEquals("b2c3d4", findUniqueCommit.getUniqueId());
     }
 
 }
