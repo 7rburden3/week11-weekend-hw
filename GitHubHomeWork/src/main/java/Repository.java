@@ -47,14 +47,9 @@ public class Repository {
         return null;
     }
 
-//    public Commit getCommitByUniqueId(String uniqueIDToFind){
-//        for (Commit commit : this.commits){
-//            if (commit.getUniqueId() == uniqueIDToFind){
-//                return commit;
-//            }
-//        }
-//        return null;
-//    }
+
+
+
 
 
 //We should be able to get a commit by its uniqueId

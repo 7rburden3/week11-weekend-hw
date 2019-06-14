@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class RepositoryTest {
 
@@ -50,6 +51,13 @@ public class RepositoryTest {
         testRepository.addCommit(commit2);
         Commit findUniqueCommit = testRepository.findCommitByUniqueId("b2c3d4");
         assertEquals("b2c3d4", findUniqueCommit.getUniqueId());
+    }
+
+    @Test
+    public void canReturnNullIfUniqueIdNotFound(){
+        testRepository.addCommit(commit1);
+        Commit findUniqueCommit = testRepository.findCommitByUniqueId("c3d4e5");
+        assertNull(findUniqueCommit);
     }
 
 }

@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#532#533#0" expanded="true" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="266">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
@@ -192,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560526855867" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560527335583" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -270,18 +270,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommitTest - 2019.06.14 at 14h 28m 57s.xml">
-      <configuration name="CommitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommitTest - 2019.06.14 at 15h 51m 46s.xml">
-      <configuration name="CommitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryTest - 2019.06.14 at 15h 51m 56s.xml">
-      <configuration name="RepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryTest - 2019.06.14 at 15h 53m 35s.xml">
-      <configuration name="RepositoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepositoryTest - 2019.06.14 at 16h 04m 54s.xml">
       <configuration name="RepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -298,6 +286,18 @@
       <configuration name="RepositoryTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RepositoryTest - 2019.06.14 at 16h 34m 54s.xml">
+      <configuration name="RepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest - 2019.06.14 at 16h 39m 52s.xml">
+      <configuration name="RepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest - 2019.06.14 at 16h 40m 12s.xml">
+      <configuration name="RepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest - 2019.06.14 at 16h 40m 58s.xml">
+      <configuration name="RepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest - 2019.06.14 at 16h 47m 01s.xml">
       <configuration name="RepositoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -428,7 +428,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
@@ -446,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="266">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
